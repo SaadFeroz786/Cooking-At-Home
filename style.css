@@ -1,0 +1,363 @@
+@import url('https://fonts.googleapis.com/css2?family=Merienda:wght@400;700&family=Open+Sans:wght@400;700&display=swap');
+body{
+    box-sizing: border-box;
+    margin: auto;
+    background-color: #FFFFFF;
+}
+
+.header-section{
+    background-image: url(./images/cooking-at-home-banner.png);
+    color: #FFFFFF;
+    background-size: cover;
+    max-width: 100%;
+    height: 715px;
+}
+
+.navbar{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: auto;
+    width: 83%;
+    padding-top: 3.5em
+}
+
+
+.navbar-light .navbar-brand {
+    color: #FFFFFF;
+    font-size: smaller;
+    font-family: 'Merienda', cursive;
+    font-weight: bold;
+}
+.navbar-light .navbar-nav .nav-link{
+    color: #FFFFFF;
+}
+.navbar-light .navbar-nav .active>.nav-link, .navbar-light .navbar-nav .nav-link.active, .navbar-light .navbar-nav .nav-link.show, .navbar-light .navbar-nav .show>.nav-link {
+    color: #FFFFFF;
+}
+.navbar-light .navbar-brand:focus, .navbar-light .navbar-brand:hover {
+    color: gold;
+}
+.navbar-light .navbar-nav .nav-link:focus, .navbar-light .navbar-nav .nav-link:hover {
+    color: gold;
+}
+.header-section .nav-icons{
+    cursor: pointer;
+}
+.header-section p{
+    display: grid;
+    align-content: center;
+    justify-content: center;
+    align-items: center;
+    justify-items: center;
+}
+.header-section p span{
+    color: #FFC702;
+
+}
+.header-section .bn-head{
+    font-family: 'Times New Roman', Times, serif;
+    font-size: xxx-large;
+}
+.header-section .bn-sub-head{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 20px;
+}
+
+.header-section .bn-btn{
+    display: flex;
+    align-content: center;
+    justify-content: center;
+    align-items: center;
+}
+.logo-area h1{
+    margin-bottom: 0px;
+}
+.logo-area p{
+    justify-content: left;
+    font-family: 'Merienda', cursive;
+    font-weight: bold;
+}
+
+.bn-elements{
+    text-align: center;
+    margin: auto;
+    margin-top: 10%;
+    width: 33%;
+}
+.bn-btn button{
+    color: #FFFFFF;
+    padding: 12px;
+    font-weight: bold;
+}
+.nav-menu .nav-links{
+    font-family: Calibri, Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-weight: bold;
+    font-size: large;
+}
+.nav-menu{
+    display: flex;
+    align-content: space-between;
+    justify-content: center;
+    align-items: center;
+    padding-right: inherit;
+}
+.nav-menu li{
+    padding-right: 1.5em;
+}
+.nav-menu .nav-icons img{
+    padding-left: 2em;
+}
+
+.section2{
+    background-color: #E4F2FF;
+    display: flex;
+    align-items: center;
+    width: 85%;
+    height: 489px;
+    margin-top: 1.5%;
+    margin-bottom: 1.5%;
+    padding: 0px;
+}
+.section2 .text_section{
+    padding-left: 5%;
+    text-align: left;
+    font-family: Calibri, 'Gill Sans', 'Gill Sans MT', 'Trebuchet MS', sans-serif;
+    color: #120101;
+    margin-top: 9%;
+}
+.section2 .text_section .txt_data{
+    width: 80%;
+    
+}
+.section2 .text_section .arrow-icon{
+    float: right;
+    width: 25%;
+}
+.section2 h1{
+    font-family: 'Times New Roman', Times, serif;
+}
+.section2 .img-fluid{
+    align-self: flex-end;
+}
+.section2 .arrow-icon{
+    cursor: pointer;
+}
+
+.section3{
+    width: 86%;
+    height: auto;
+    margin-top: 5%;
+    margin-bottom: 1.5%;
+    padding: 0px;
+    margin-left: 7.5%;
+    display: flex;
+    flex-direction: column;
+    align-items: normal;
+    gap: 1em;
+    font-family: 'Times New Roman', Times, serif;
+}
+.section3 .posts{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+.section3 .posts .ps{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 10px;
+}
+.section3 .posts .ps:hover{
+    cursor: pointer;
+    opacity: 80%;
+}
+
+.section3 .h2, h2 {
+    font-size: 2rem;
+    font-weight: bold;
+}
+.section3 .h4, h4 {
+    font-size: 1.5rem;
+    font-weight: bold;
+}
+
+.section4{
+    width: 86%;
+    height: auto;
+    margin-top: 5%;
+    margin-bottom: 1.5%;
+    padding: 0px;
+    margin-left: 7.5%;
+    display: flex;
+    flex-direction: column;
+    align-items: normal;
+    gap: 1em;
+    font-family: 'Times New Roman', Times, serif;
+}
+.section4 .ctg .ctg-items{
+    display: flex;
+    text-align: center;
+    justify-content: space-between;
+}
+.section4 .ctg .ctg-items .ps{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 10px;
+}
+
+.section4 .ctg .ctg-items .ps:hover{
+    cursor: pointer;
+    opacity: 80%;
+}
+.section4 .ctg .ctg-items p{
+    font-size: x-large;
+}
+
+.section5{
+    background-image: url("./images/events_bg_section5.png");
+    max-width: 100%;
+    height: 483px;
+    color: #FFFFFF;
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    padding: 5%;
+    font-family: 'Times New Roman', Times, serif;
+}
+.section5 .event_details{
+    background: rgba(16, 15, 15, 0.5);
+    padding: 3% 15% 3% 15%;
+    margin: 0px;
+    font-size: 21px;
+}
+.section5 .head_event{
+    font-size: 26px;
+    font-weight: bold;
+}
+
+.section6{
+    width: 86%;
+    height: auto;
+    margin-top: 5%;
+    margin-bottom: 1.5%;
+    padding: 0px;
+    margin-left: 7.5%;
+    display: flex;
+    flex-direction: column;
+    align-items: normal;
+    gap: 1em;
+    font-family: 'Times New Roman', Times, serif;
+}
+.section6 .recipes .row1{
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 3%;
+}
+.section6 .recipes .row2{
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 3%;
+}
+.section6 .recipes .row3{
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 3%;
+}
+
+.section6 .recipes .ps{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 10px;
+}
+.section6 .recipes .ps:hover{
+    cursor: pointer;
+    opacity: 80%;
+}
+
+.section6 .view_all_recipes{
+    text-align-last: center;
+}
+.section6 .btn{
+    border-radius: 0em;
+    font-size: large;
+    font-weight: bold;
+    width: 16%;
+}
+.section6 .form{
+    width: 40%;
+    align-self: center;
+    font-family: Calibri, 'Gill Sans', 'Gill Sans MT', 'Trebuchet MS', sans-serif;
+}
+.section6 .form .btn{
+    width: 24%;
+    color: #FFFFFF;
+    font-weight: normal;
+    background-color: #ED5B5B;
+    border: 0em;
+}
+.section6 .form p{
+    color: #ED5B5B;
+}
+.section6 .form p:hover{
+    cursor: pointer;
+    opacity: 80%;
+}
+
+.section7{
+    background:#F4F1F1;
+    max-width: 100%;
+    height: auto;
+    background-size: cover;
+    display: flex;
+    align-items: baseline;
+    padding: 10%;
+}
+.section7 .left{
+    border-right: 1px groove #B7B1B1;
+    height: 13em;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.section7 .left p{
+    width: 45%;
+}
+.section7 .left .h4{
+    font-family: 'Merienda', cursive;
+}
+.section7 .right p{
+    width: 45%;
+    font-family: 'Merienda', cursive;
+}
+.section7 .right .icons{
+    display: flex;
+    justify-content: space-between;
+    margin: auto;
+}
+.section7 .right .icons .hov:hover{
+    cursor: pointer;
+    opacity: 80%;
+}
+.footer-section{
+    max-width: 100%;
+    height: 187px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    color: #000;
+    font-size: large;
+}
+.footer-section a{
+    color: #000;
+}
+.footer-section a:hover{
+    text-decoration: none;
+    opacity: 80%;
+}
